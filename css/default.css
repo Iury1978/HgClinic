@@ -15,6 +15,7 @@ body {
   font-family: 'Myriad Pro', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #000;
 }
 
 
@@ -63,4 +64,30 @@ iframe {
   max-width: 1530px;
   padding: 0 30px;
   margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1260px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width: 536px) {
+  .container {
+    padding: 0 16px;
+  }
 }
