@@ -146,14 +146,6 @@
   background-position-x: 100%;
 }
 
-.hero-button__more::after {
-  content: "";
-  color: #009344;
-  width: 18px;
-  height: 10px;
-}
-
-
 .hero__btn {
   position: absolute;
   border: none;
@@ -294,11 +286,6 @@
     height: 18px;
   }
 
-  .hero-button__more::after {
-    width: 15px;
-    height: 8px;
-  }
-
 
   .hero__btn {
     position: absolute;
@@ -411,12 +398,6 @@
     font-size: 14px;
     line-height: 14px;
   }
-
-  .hero-button__more::after {
-    width: 15px;
-    height: 8px;
-  }
-
 
   .hero__btn {
     width: 24px;
@@ -543,13 +524,8 @@
     height: 12px;
     font-size: 12px;
     line-height: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg width='15' height='8' viewBox='0 0 15 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8861 0L10.2179 0.649677L13.1912 3.54062H0V4.45941H13.1912L10.2179 7.35032L10.8861 8L15 3.99998L10.8861 0Z' fill='%23009344'/%3E%3C/svg%3E%0A") no-repeat right;
   }
-
-  .hero-button__more::after {
-    width: 12px;
-    height: 6px;
-  }
-
 
   .hero__btn {
     width: 14px;
@@ -658,10 +634,10 @@
 
 @media (max-width: 480px) {
   .hero__prev-btn {
-   display: none;
+    display: none;
   }
 
   .hero__next-btn {
-   display: none;
+    display: none;
   }
 }
