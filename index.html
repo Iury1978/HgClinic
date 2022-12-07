@@ -15,8 +15,12 @@
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="theme-color" content="#ffffff">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="css/index.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/index.js" type="module"></script>
+
 </head>
 
 <body>
@@ -100,6 +104,122 @@
       </div>
     </div>
   </header>
+  <main>
+    <section class="hero">
+      <div class="swiper hero__swiper" id="hero__swiper">
+        <ul class="swiper-wrapper hero__swiper-wrapper">
+          <li class="swiper-slide  hero-slide">
+            <div class="hero-slide__container">
+              <div class="hero-slide__left">
+                <h2 class="hero-slide__discount">Скидка 25% на установку Брекет систем</h2>
+                <p class="hero-slide__text">ПО УДИВИТЕЛЬНОЙ ЦЕНЕ -</p>
+                <p class="hero-slide__price">6 500<span class="hero-slide__price hero-slide__price_currency">руб.</span>
+                </p>
+                <p class="hero-slide__promo-duration">С 5 ИЮНЯ ПО 30 ИЮЛЯ 2021 ГОДА</p>
+                <div class="hero-slide__buttons hero-button">
+                  <button class="hero-button__make-appointment"><span
+                      class="hero-button__make-appointment-text">ЗАПИСАТЬСЯ НА ПРИЕМ</span>
+                    <span class="hero-button__make-appointment-arrow">
+                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="13" cy="13.0001" rx="13" ry="13.0001" fill="#009344" />
+                        <path
+                          d="M14.9831 10L14.4931 10.4873L16.6735 12.6555H7V13.3446H16.6735L14.4931 15.5128L14.9831 16L18 13L14.9831 10Z"
+                          fill="white" />
+                      </svg>
+
+                    </span>
+                  </button>
+                  <button class="hero-button__more">Подробнее</button>
+                </div>
+              </div>
+              <div class="hero-slide__right">
+                <img src="./img/hero-slide1.png" alt="какое-то из предложений" class="hero-slide__img">
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide  hero-slide">
+            <div class="hero-slide__container">
+              <div class="hero-slide__left">
+                <h2 class="hero-slide__discount">Скидка 25% на установку Брекет систем</h2>
+                <p class="hero-slide__text">ПО УДИВИТЕЛЬНОЙ ЦЕНЕ -</p>
+                <p class="hero-slide__price">6 500<span class="hero-slide__price hero-slide__price_currency">руб.</span>
+                </p>
+                <p class="hero-slide__promo-duration">С 5 ИЮНЯ ПО 30 ИЮЛЯ 2021 ГОДА</p>
+                <div class="hero-slide__buttons hero-button">
+                  <button class="hero-button__make-appointment"><span
+                      class="hero-button__make-appointment-text">ЗАПИСАТЬСЯ НА
+                      ПРИЕМ</span>
+                    <span class="hero-button__make-appointment-arrow">
+                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="13" cy="13.0001" rx="13" ry="13.0001" fill="#009344" />
+                        <path
+                          d="M14.9831 10L14.4931 10.4873L16.6735 12.6555H7V13.3446H16.6735L14.4931 15.5128L14.9831 16L18 13L14.9831 10Z"
+                          fill="white" />
+                      </svg>
+
+                    </span>
+                  </button>
+                  <button class="hero-button__more">Подробнее</button>
+                </div>
+              </div>
+              <div class="hero-slide__right">
+                <img src="./img/hero-slide2.png" alt="какое-то из предложений" class="hero-slide__img">
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide  hero-slide">
+            <div class="hero-slide__container">
+              <div class="hero-slide__left">
+                <h2 class="hero-slide__discount">Скидка 25% на установку Брекет систем</h2>
+                <p class="hero-slide__text">ПО УДИВИТЕЛЬНОЙ ЦЕНЕ -</p>
+                <p class="hero-slide__price">6 500<span class="hero-slide__price hero-slide__price_currency">руб.</span>
+                </p>
+                <p class="hero-slide__promo-duration">С 5 ИЮНЯ ПО 30 ИЮЛЯ 2021 ГОДА</p>
+                <div class="hero-slide__buttons hero-button">
+                  <button class="hero-button__make-appointment"><span
+                      class="hero-button__make-appointment-text">ЗАПИСАТЬСЯ НА
+                      ПРИЕМ</span>
+                    <span class="hero-button__make-appointment-arrow">
+                      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="13" cy="13.0001" rx="13" ry="13.0001" fill="#009344" />
+                        <path
+                          d="M14.9831 10L14.4931 10.4873L16.6735 12.6555H7V13.3446H16.6735L14.4931 15.5128L14.9831 16L18 13L14.9831 10Z"
+                          fill="white" />
+                      </svg>
+
+                    </span>
+                  </button>
+                  <button class="hero-button__more">Подробнее</button>
+                </div>
+              </div>
+              <div class="hero-slide__right">
+                <img src="./img/hero-slide3.png" alt="какое-то из предложений" class="hero-slide__img">
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="swiper-pagination" id="swiper-pagination">
+        </div>
+
+      </div>
+      <button class="hero__btn hero__prev-btn"><svg width="36" height="67" viewBox="0 0 36 67" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M4.58789 33.4982L34.8462 3.23995C35.5903 2.49578 35.5903 1.3023 34.8462 0.558129C34.102 -0.186043 32.9085 -0.186043 32.1644 0.558129L0.558129 32.1644C-0.186043 32.9085 -0.186043 34.102 0.558129 34.8462L32.1644 66.4384C32.5294 66.8034 33.0209 67 33.4982 67C33.9756 67 34.4671 66.8175 34.8321 66.4384C35.5763 65.6942 35.5763 64.5007 34.8321 63.7565L4.58789 33.4982Z"
+            fill="currentColor" fill-opacity="0.2" />
+        </svg>
+      </button>
+      <button class="hero__btn hero__next-btn"><svg width="36" height="67" viewBox="0 0 36 67" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M34.8462 32.1644L3.23995 0.558129C2.49578 -0.186043 1.3023 -0.186043 0.558129 0.558129C-0.186043 1.3023 -0.186043 2.49578 0.558129 3.23995L30.8164 33.4982L0.558129 63.7565C-0.186043 64.5007 -0.186043 65.6942 0.558129 66.4384C0.923194 66.8034 1.41463 67 1.89202 67C2.36941 67 2.86085 66.8175 3.22591 66.4384L34.8321 34.8321C35.5763 34.102 35.5763 32.8945 34.8462 32.1644Z"
+            fill="currentColor" fill-opacity="0.2" />
+        </svg>
+      </button>
+      <div class="hero__separator"></div>
+    </section>
+  </main>
 </body>
 
 </html>
