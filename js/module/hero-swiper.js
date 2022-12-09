@@ -1,24 +1,16 @@
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".hero__swiper", {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 40,
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
 
-  // Navigation arrows
   navigation: {
     nextEl: ".hero__next-btn",
     prevEl: ".hero__prev-btn",
   },
 
   pagination: {
-    el: ".swiper-pagination",
+    el: ".hero__swiper-pagination",
     type: "bullets",
     clickable: true,
-  },
-  scrollbar: {
-    el: ".swiper-scrollbar",
   },
 });

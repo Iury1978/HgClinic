@@ -172,7 +172,7 @@
   left: auto;
 }
 
-#swiper-pagination {
+#hero__swiper-pagination {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +180,7 @@
   bottom: 24px;
 }
 
-#swiper-pagination .swiper-pagination-bullet {
+#hero__swiper-pagination .swiper-pagination-bullet {
   width: 14px;
   height: 14px;
   background-color: #CCE9DA;
@@ -188,7 +188,7 @@
   margin: 0;
 }
 
-#swiper-pagination .swiper-pagination-bullet-active {
+#hero__swiper-pagination .swiper-pagination-bullet-active {
   width: 14px;
   height: 14px;
   background-color: #006738;
@@ -418,17 +418,17 @@
     right: 40px;
   }
 
-  #swiper-pagination {
+  #hero__swiper-pagination {
     gap: 3px;
     bottom: 16px;
   }
 
-  #swiper-pagination .swiper-pagination-bullet {
+  #hero__swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
   }
 
-  #swiper-pagination .swiper-pagination-bullet-active {
+  #hero__swiper-pagination .swiper-pagination-bullet-active {
     width: 12px;
     height: 12px;
     background-color: #006738;
@@ -547,16 +547,16 @@
     right: 32px;
   }
 
-  #swiper-pagination {
+  #hero__swiper-pagination {
     bottom: 14px;
   }
 
-  #swiper-pagination .swiper-pagination-bullet {
+  #hero__swiper-pagination .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
   }
 
-  #swiper-pagination .swiper-pagination-bullet-active {
+  #hero__swiper-pagination .swiper-pagination-bullet-active {
     width: 8px;
     height: 8px;
     background-color: #006738;
