@@ -16,8 +16,12 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
 
   <link rel="stylesheet" href="css/index.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./js/index.js" type="module"></script>
 
@@ -589,6 +593,12 @@
           </div>
         </div>
         <a href="#!" class="useful__all">ПОСМОТРЕТЬ ВСЕ ПУБЛИКАЦИИ</a>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="map__container">
+        <div id="map"></div>
       </div>
     </section>
   </main>
