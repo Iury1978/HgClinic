@@ -130,9 +130,21 @@
   width: 1274px;
   padding: 0 25px;
   height: 288px;
+  height: 298px;
+}
+
+.doctors-list__slide {
+  width: 232px;
+  height: 288px;
+}
+
+.doctors-list__slide_active {
+  width: 232px;
+  height: 288px;
 }
 
 .doctors-list__img {
+
   border-radius: 20px;
 }
 
@@ -142,13 +154,14 @@
   background-color: transparent;
 }
 
-.doctors-list__swiper>.swiper-slide-active {
-  transform: none;
-}
+/* .doctors-list__swiper>.swiper-slide-active {
+  border: 5px solid #CCE9DA;
+} */
 
 .doctors-list__swiper>.swiper-slide-active>.doctors-list__thumb-btn {
-  border: 5px solid #CCE9DA;
-  transform: none;
+  line-height: 0;
+  outline: 5px solid #CCE9DA;
+  outline-offset: -5px;
 }
 
 @media (max-width: 1280px) {
