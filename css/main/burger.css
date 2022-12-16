@@ -566,7 +566,7 @@
     height: 20px;
   }
 
-  .burger_wrapper-contacts-nav {
+  .burger__wrapper-contacts-nav {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
