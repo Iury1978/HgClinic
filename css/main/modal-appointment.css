@@ -1,6 +1,5 @@
 .modal {
-  /* display: none; */
-  display: flex;
+  display: none;
   position: fixed;
   inset: 0;
   z-index: 900;
@@ -8,7 +7,6 @@
   cursor: default;
   overflow-y: auto;
   overflow-x: hidden;
-  /* opacity: 0; */
 }
 
 .modal-appointment__main {
@@ -172,7 +170,7 @@
 
   .modal-appointment__close {
     top: 25px;
-    right:25px;
+    right: 25px;
   }
 }
 
