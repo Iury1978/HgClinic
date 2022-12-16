@@ -529,7 +529,7 @@
     height: 12px;
     font-size: 12px;
     line-height: 12px;
-    background-image: url("data:image/svg+xml,%3Csvg width='15' height='8' viewBox='0 0 15 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8861 0L10.2179 0.649677L13.1912 3.54062H0V4.45941H13.1912L10.2179 7.35032L10.8861 8L15 3.99998L10.8861 0Z' fill='%23009344'/%3E%3C/svg%3E%0A") no-repeat right;
+    background: url("data:image/svg+xml,%3Csvg width='15' height='8' viewBox='0 0 15 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8861 0L10.2179 0.649677L13.1912 3.54062H0V4.45941H13.1912L10.2179 7.35032L10.8861 8L15 3.99998L10.8861 0Z' fill='%23009344'/%3E%3C/svg%3E%0A") no-repeat right;
   }
 
   .hero__btn {
